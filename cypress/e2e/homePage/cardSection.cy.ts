@@ -2,7 +2,6 @@ import { DETAILS_SECTION_IDS } from "../../../src/constants/testData/detailsPage
 import { CARD_SECTION_IDS, EMPTY_TL_MESSAGE } from "../../../src/constants/testData/homePage/cardSection"
 import { INPUT_SECTION_IDS } from "../../../src/constants/testData/homePage/inputSection"
 import { SEARCH_SECTION_IDS } from "../../../src/constants/testData/homePage/searchSection"
-import { NUMBER_0_TO_255_REGEX } from "../../../src/constants/shared"
 
 describe("It tests card section", () => {
 
@@ -59,7 +58,9 @@ describe("It tests card section", () => {
          // View functionality
          cy.getByTestId(CARD_SECTION_IDS.TL_CARD).its(0).within(()=>{
             cy.getByTestId(CARD_SECTION_IDS.TL_VIEW_BUTTON).should("be.enabled").click()
-            cy.location('pathname').should('match',NUMBER_0_TO_255_REGEX)
+            cy.location('pathname').then(($path) => {
+                expect(Cypress.minimatch($path, `/poc_cypress_todo_app/detail/*`, { matchBase: true})).to.be.true
+            })
         })
         cy.getByTestId(DETAILS_SECTION_IDS.TD_BACK_BUTTON).should("be.enabled").click()
 

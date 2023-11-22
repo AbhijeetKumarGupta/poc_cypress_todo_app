@@ -32,7 +32,7 @@ const TodoDetails = () => {
                         <h1 id={styles.notFound}>404 Not Found</h1> :
                         <>
                             <h1 id={styles.header}>Task Details</h1>
-                            <h2 className={styles.detailRows}>Task ID&nbsp;:&nbsp;<span className={styles.valueData}>{todoData?.id}</span></h2>
+                            <h2 className={styles.detailRows}>Task ID&nbsp;:&nbsp;<span data-test={DETAILS_SECTION_IDS.TD_TASK_ID} className={styles.valueData}>{todoData?.id}</span></h2>
                             <h2 className={styles.detailRows}>Task title&nbsp;:&nbsp;<span className={styles.valueData}>{todoData?.title}</span></h2>
                             <h2 className={styles.detailRows}>Is complete?&nbsp;:&nbsp;<span className={styles.valueData}>{todoData?.completed ? 'True' : 'False'}</span></h2>
                             <button

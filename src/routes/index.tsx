@@ -6,8 +6,8 @@ const RoutesComp = () => {
 
     return(
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/deatil/:todoId" element={<TodoDetails />} />
+            <Route path="/poc_cypress_todo_app" element={<Home />} />
+            <Route path="/poc_cypress_todo_app/detail/:todoId" element={<TodoDetails />} />
         </Routes>
     )
 }

@@ -38,7 +38,7 @@ const TodoDetails = () => {
                             <button
                                 id={styles.goBackButton}
                                 data-test={DETAILS_SECTION_IDS.TD_BACK_BUTTON}
-                                onClick={() => navigate('/')}
+                                onClick={() => navigate('/poc_cypress_todo_app')}
                             >
                                 {'< Go back'}
                             </button>

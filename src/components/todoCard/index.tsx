@@ -27,7 +27,7 @@ const Card = (props: ICard) => {
 
   const handleView = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     //@ts-ignore
-    navigate(`/detail/${e.target.id}`)
+    navigate(`/poc_cypress_todo_app/detail/${e.target.id}`)
   }
 
   return (

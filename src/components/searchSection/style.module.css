@@ -1,0 +1,45 @@
+#outsideContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 2px solid white;
+  padding-bottom: 10px;
+  color: white;
+}
+#insideContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+#inputForm {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+#textBox {
+  padding: 10px;
+  width: 50%;
+}
+#searchButton {
+  text-align: center;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 5px;
+  width: 10%;
+  min-width: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#errorText {
+  color: red;
+}
+#statusRadioContainer {
+  display: flex;
+  align-items: center;
+}

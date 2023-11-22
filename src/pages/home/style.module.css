@@ -1,0 +1,12 @@
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#actionBar {
+    display: flex;
+}
+
+#loading {
+    color: yellow;
+}

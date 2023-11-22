@@ -1,0 +1,67 @@
+.todoCard {
+  display: flex;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #4b9cd3;
+  color: white;
+  height: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  gap: 5px;
+}
+.todoCardDone {
+  display: flex;
+  border-radius: 10px;
+  width: 20%;
+  background-color: green;
+  color: white;
+  height: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.todoMessageDiv {
+  width: 95%;
+}
+.removeButton {
+  border: none;
+  border-radius: 5px;
+  background-color: lightsalmon;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.buttonContainer {
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.doneButton {
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.openButton {
+  border: none;
+  border-radius: 5px;
+  background-color: lightgoldenrodyellow;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.viewButton {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 100%;
+}

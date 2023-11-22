@@ -1,0 +1,19 @@
+#listTitle {
+    color: white;
+    margin: 0;
+}
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    padding-top: 10px;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+#emptyList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+}

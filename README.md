@@ -1,1 +1,1 @@
-Deployed Link : https://todo-app-cypress.netlify.app/
+Deployed Link : https://abhijeetkumargupta.github.io/poc_cypress_todo_app/

@@ -21,7 +21,7 @@ const TodoDetails = () => {
             console.log(err);
             setLoading(false)
           });
-    }, []);
+    }, [todoId]);
 
     return (
         <div id={styles.mainDiv}>

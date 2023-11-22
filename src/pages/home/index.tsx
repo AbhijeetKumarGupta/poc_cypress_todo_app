@@ -27,6 +27,7 @@ const Home = () => {
       dispatch(setTodoData(data));
       dispatch(setBackupTodoData(data));
     };
+    
   return (
     <div id={styles.mainDiv}>
       <div id={styles.actionBar}>

@@ -7,7 +7,7 @@ const RoutesComp = () => {
     return(
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/:todoId" element={<TodoDetails />} />
+            <Route path="/deatil/:todoId" element={<TodoDetails />} />
         </Routes>
     )
 }

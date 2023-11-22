@@ -27,7 +27,7 @@ const Card = (props: ICard) => {
 
   const handleView = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     //@ts-ignore
-    navigate(`/${e.target.id}`)
+    navigate(`/detail/${e.target.id}`)
   }
 
   return (

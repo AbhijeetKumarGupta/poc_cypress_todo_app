@@ -29,11 +29,11 @@
 #addButton {
   text-align: center;
   padding: 10px;
-  background-color: transparent;
+  background-color: rgba(144, 238, 144, 0.6) ;
   border: 2px solid white;
   margin-left: 5px;
   width: 10%;
-  min-width: 50px;
+  min-width: 70px;
   cursor: pointer;
   border-radius: 5px;
   color: white;

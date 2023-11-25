@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/poc_cypress_todo_app/static/css/main.c129f0d1.css",
+    "main.css": "/poc_cypress_todo_app/static/css/main.f2e14069.css",
     "main.js": "/poc_cypress_todo_app/static/js/main.de9d4744.js",
     "static/js/787.49873f89.chunk.js": "/poc_cypress_todo_app/static/js/787.49873f89.chunk.js",
     "index.html": "/poc_cypress_todo_app/index.html",
-    "main.c129f0d1.css.map": "/poc_cypress_todo_app/static/css/main.c129f0d1.css.map",
+    "main.f2e14069.css.map": "/poc_cypress_todo_app/static/css/main.f2e14069.css.map",
     "main.de9d4744.js.map": "/poc_cypress_todo_app/static/js/main.de9d4744.js.map",
     "787.49873f89.chunk.js.map": "/poc_cypress_todo_app/static/js/787.49873f89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c129f0d1.css",
+    "static/css/main.f2e14069.css",
     "static/js/main.de9d4744.js"
   ]
 }

@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "cypress": "^13.5.1",
+    "cypress-split": "^1.23.2",
     "gh-pages": "^6.1.0"
   }
 }

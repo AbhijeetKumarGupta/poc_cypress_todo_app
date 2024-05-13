@@ -1,5 +1,5 @@
 import { defineConfig } from "cypress";
-const cypressSplit = require('cypress-split')
+import cypressSplit from "cypress-split";
 
 export default defineConfig({
   e2e: {
